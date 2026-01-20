@@ -7,3 +7,16 @@
     font-family: "Inter", sans-serif;
   }
 }
+@keyframes button-bounce {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.bounce {
+  animation: button-bounce 1.5s infinite ease-in-out;
+}
